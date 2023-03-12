@@ -7,4 +7,4 @@ def find_max_count(data):
     """
     
     return data.count(max(data))
-print(find_max_count([1, 8, 3, 8, 5]))
+print(find_max_count([13, 8, 3, 4, 9]))
