@@ -6,4 +6,4 @@ def find_max_min_sum(data):
     returns: sum of the maximum and minimum numbers in the list
     """
     return max(data) + min(data) 
-print(find_max_min_sum([1, 2, 3, 4, 5]))
+print(find_max_min_sum([2, 7, 3, 4, 9]))
