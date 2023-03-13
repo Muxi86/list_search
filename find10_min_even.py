@@ -5,5 +5,13 @@ def find_min_even(data):
         data: list of numbers
     returns: minimum even number in the list
     """
-    return 0
+    even = []
+    idx = 0
+    while len(data)>idx:
+        if data[idx]%2==0:
+            even.append(data[idx])
+        idx+=1
+    ans = min(even)
+    return ans
+print(find_min_even([7, 8, 4, 3, 5]))
 
